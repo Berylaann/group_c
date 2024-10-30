@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: white;
     box-sizing: border-box;
@@ -10,6 +14,12 @@ body {
     position: static;
     width: 100%;
     height: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
 }
 
 .flex-container-1 > nav {
@@ -158,7 +168,7 @@ body {
     font-size: 20px;
     cursor: pointer;
     position: relative;
-    transition: background 0.1s;
+    transition: 0.1s;
 }
 .openroles_label:hover {
     background: rgba(0, 0, 0.1);
